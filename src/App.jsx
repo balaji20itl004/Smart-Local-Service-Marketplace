@@ -11,7 +11,7 @@ import AdminDashboard from "./pages/AdminDashboard";
 import ProviderDashboard from "./pages/ProviderDashboard";
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Smart-Local-Service-Marketplace">
       <Routes>
         <Route path="/" element={<Home />} />
 
