@@ -1,0 +1,457 @@
+/* =========================
+   PROFILE PAGE
+========================= */
+
+.provider-profile {
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
+
+/* =========================
+   PROFILE HEADER
+========================= */
+
+.profile-header {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.profile-header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 35px 24px;
+}
+
+.back-services {
+  display: inline-block;
+
+  margin-bottom: 28px;
+
+  color: #6b7280;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.back-services:hover {
+  color: #2563eb;
+}
+
+.profile-main {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.provider-avatar {
+  width: 100px;
+  height: 100px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 16px;
+
+  background: #eff6ff;
+  color: #2563eb;
+
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.profile-basic {
+  flex: 1;
+}
+
+.profile-category {
+  margin-bottom: 7px;
+
+  color: #2563eb;
+
+  font-size: 12px;
+  font-weight: 700;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.profile-basic h1 {
+  margin-bottom: 10px;
+
+  color: #111827;
+
+  font-size: 32px;
+}
+
+.profile-verified {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+
+  margin-bottom: 15px;
+
+  color: #2563eb;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.profile-meta {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+  color: #6b7280;
+
+  font-size: 13px;
+}
+
+.profile-meta span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.profile-meta span:first-child {
+  color: #f59e0b;
+}
+
+.profile-meta small {
+  color: #6b7280;
+}
+
+
+/* =========================
+   CONTENT
+========================= */
+
+.profile-content {
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  padding: 45px 24px 90px;
+
+  display: grid;
+
+  grid-template-columns: 1fr 350px;
+
+  gap: 35px;
+}
+
+.profile-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profile-section {
+  padding: 28px;
+
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.profile-section h2 {
+  margin-bottom: 18px;
+
+  color: #111827;
+
+  font-size: 20px;
+}
+
+.profile-section > p {
+  margin-bottom: 12px;
+
+  color: #6b7280;
+
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+
+/* =========================
+   SERVICES
+========================= */
+
+.offered-services {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 12px;
+}
+
+.offered-service {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+
+  padding: 13px;
+
+  border-radius: 8px;
+
+  background: #f8fafc;
+
+  color: #374151;
+
+  font-size: 13px;
+}
+
+.offered-service svg {
+  color: #16a34a;
+}
+
+
+/* =========================
+   REVIEWS
+========================= */
+
+.reviews-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+}
+
+.reviews-heading h2 {
+  margin-bottom: 5px;
+}
+
+.reviews-heading p {
+  color: #6b7280;
+
+  font-size: 12px;
+}
+
+.overall-rating {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  color: #f59e0b;
+
+  font-size: 18px;
+}
+
+.review {
+  padding: 18px 0;
+
+  border-top: 1px solid #e5e7eb;
+}
+
+.review-top {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 8px;
+
+  font-size: 13px;
+}
+
+.review-top span {
+  font-size: 11px;
+}
+
+.review p {
+  color: #6b7280;
+
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+
+/* =========================
+   BOOKING CARD
+========================= */
+
+.booking-card {
+  height: fit-content;
+
+  position: sticky;
+  top: 25px;
+
+  padding: 25px;
+
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 13px;
+
+  box-shadow: 0 8px 25px rgba(15, 23, 42, 0.05);
+}
+
+.booking-price {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.booking-price span {
+  color: #6b7280;
+
+  font-size: 12px;
+}
+
+.booking-price strong {
+  color: #111827;
+
+  font-size: 28px;
+}
+
+.booking-divider {
+  height: 1px;
+
+  margin: 20px 0;
+
+  background: #e5e7eb;
+}
+
+.booking-detail {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+
+  margin-bottom: 20px;
+
+  color: #2563eb;
+}
+
+.booking-detail div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.booking-detail span {
+  color: #9ca3af;
+
+  font-size: 11px;
+}
+
+.booking-detail strong {
+  color: #374151;
+
+  font-size: 13px;
+}
+
+.profile-book-button {
+  width: 100%;
+
+  display: block;
+
+  padding: 14px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #2563eb;
+  color: #ffffff;
+
+  text-align: center;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.profile-book-button:hover {
+  background: #1d4ed8;
+}
+
+.profile-book-button.disabled {
+  background: #d1d5db;
+  cursor: not-allowed;
+}
+
+.booking-note {
+  margin-top: 13px;
+
+  color: #9ca3af;
+
+  font-size: 11px;
+  line-height: 1.5;
+
+  text-align: center;
+}
+
+
+/* =========================
+   NOT FOUND
+========================= */
+
+.profile-not-found {
+  min-height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+
+  text-align: center;
+}
+
+.profile-not-found h2 {
+  color: #111827;
+}
+
+.profile-not-found p {
+  color: #6b7280;
+}
+
+.profile-not-found a {
+  margin-top: 10px;
+
+  padding: 10px 18px;
+
+  border-radius: 7px;
+
+  background: #2563eb;
+  color: #ffffff;
+
+  font-size: 13px;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+
+  .profile-content {
+    grid-template-columns: 1fr;
+  }
+
+  .booking-card {
+    position: static;
+  }
+
+}
+
+@media (max-width: 650px) {
+
+  .profile-main {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .profile-meta {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .offered-services {
+    grid-template-columns: 1fr;
+  }
+
+}

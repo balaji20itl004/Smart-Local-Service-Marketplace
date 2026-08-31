@@ -1,0 +1,134 @@
+.navbar {
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  height: 76px;
+  margin: 0 auto;
+  padding: 0 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  color: #1f2937;
+  text-decoration: none;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.logo:hover {
+  color: #1f2937;
+}
+
+.logo-icon {
+  width: 38px;
+  height: 38px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 10px;
+
+  background: #2563eb;
+  color: #ffffff;
+
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Navigation */
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav-links a {
+  color: #374151;
+  text-decoration: none;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  color: #2563eb;
+}
+
+/* Right side */
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.location-button,
+.login-button,
+.register-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+
+  padding: 10px 14px;
+
+  border-radius: 9px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+
+  text-decoration: none;
+}
+
+/* Location */
+
+.location-button {
+  background: transparent;
+  border: none;
+  color: #374151;
+}
+
+/* Login */
+
+.login-button {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  color: #374151;
+}
+
+.login-button:hover {
+  border-color: #2563eb;
+  color: #2563eb;
+}
+
+/* Get Started */
+
+.register-button {
+  background: #2563eb;
+  border: 1px solid #2563eb;
+  color: #ffffff;
+}
+
+.register-button:hover {
+  background: #1d4ed8;
+  border-color: #1d4ed8;
+}
